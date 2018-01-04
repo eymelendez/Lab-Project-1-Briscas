@@ -21,7 +21,9 @@ To write a program that implements the following C++ concepts
    Private attributes are: 
    
    a. char cardType // (‘O’ – oro, ‘E’ – espada, ‘C’ – copa, ‘B’ – basto  
+   
    b. int card // (1..7, 10, 11, 12)
+   
    c. int value // (1 = 11, 3 = 10, 10 = 2, 11 = 3, 12 = 4, the rest = 0) 
  
 2. Make a class call Deck that would be a composition of class Brisca.  The methods should include 
